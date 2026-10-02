@@ -1,17 +1,19 @@
-# Maintainer: (local, unofficial)
+# Maintainer: Kaorw <kaorw@kaorw.net>
 #
 # fcitx5-semoi: 세모이(세벌식 모아치기 e) 모아치기 입력기를 fcitx5 애드온으로 제공한다.
-# 이 저장소의 작업 트리를 그대로 빌드한다:  cd packaging && makepkg -si
-# fcitx5-hangul(두벌식 순아래)과 함께 설치되어 같은 입력기 그룹에서 나란히 쓴다.
+# 이 저장소를 받은 작업 트리를 그대로 빌드한다:
+#   git clone https://github.com/Kaorw/semoi-linux && cd semoi-linux/packaging && makepkg -si
 
 pkgname=fcitx5-semoi
 pkgver=0.1.0
 pkgrel=1
 pkgdesc="Semoi (Sebeolsik Moachigi e) chord-typing Korean input method for Fcitx5"
 arch=('x86_64' 'aarch64')
+url="https://github.com/Kaorw/semoi-linux"
 license=('CC-BY-SA-4.0')
-depends=('fcitx5')
+depends=('fcitx5>=5.1')
 makedepends=('cmake' 'extra-cmake-modules')
+options=('!debug')
 
 _srcroot="$(realpath "$startdir/..")"
 

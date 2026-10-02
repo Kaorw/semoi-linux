@@ -1,3 +1,4 @@
+// test/chords.tsv 생성기 — scripts/gen-chords.sh 가 sebeol-type 소스 옆에 복사해서 실행한다
 import { chordText } from './engine/semoe.ts';
 import { SEMOE } from './layout/semoe.ts';
 const EV: Record<string, number> = { KeyY:21,KeyU:22,KeyI:23,KeyO:24,KeyH:35,KeyJ:36,KeyK:37,KeyL:38,KeyN:49,KeyM:50,Semicolon:39,Period:52,KeyQ:16,KeyW:17,KeyE:18,KeyA:30,KeyS:31,KeyZ:44,KeyX:45,KeyR:19,KeyT:20,KeyD:32,KeyF:33,KeyG:34,KeyC:46,KeyV:47,KeyB:48,KeyP:25,Comma:51,Space:57,Digit1:2 };
