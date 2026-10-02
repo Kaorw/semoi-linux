@@ -49,3 +49,7 @@ sebeol-type의 규칙이 바뀌면 다시 만듭니다.
 python3 scripts/gen-rules.py ~/Work/sebeol-type/src/layout/semoe.ts > src/rules.inc
 # test/chords.tsv: scripts/gen-chords.ts 를 sebeol-type src 복사본(상대 import 에 .ts 붙임)과 함께 node 로 실행
 ```
+
+## 라이선스
+
+[CC BY-SA 4.0](LICENSE). 세모이 배열과 결합 규칙은 신세기 님의 [Semo-e_keyboard](https://github.com/Sinseiki/Semo-e_keyboard)(CC BY-SA 4.0)를 바탕으로 했으므로 같은 조건으로 공개합니다.
